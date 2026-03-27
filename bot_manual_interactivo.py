@@ -41,17 +41,17 @@ try:
         wait = WebDriverWait(driver, 10)
         
         # Llenar usuario
-        print("[*] Ingresando usuario: angie.cardenas")
+        print("[*] Ingresando usuario: Usuario")
         campo_usuario = wait.until(EC.presence_of_element_located((By.ID, "UserName")))
         campo_usuario.clear()
-        campo_usuario.send_keys("angie.cardenas")
+        campo_usuario.send_keys("Usuario")
         print("[+] Usuario ingresado")
         
         # Llenar contraseña
         print("[*] Ingresando contraseña...")
         campo_password = driver.find_element(By.ID, "Password")
         campo_password.clear()
-        campo_password.send_keys("Celeste1020*")
+        campo_password.send_keys("Contraseña")
         print("[+] Contraseña ingresada")
         
         # Click en login

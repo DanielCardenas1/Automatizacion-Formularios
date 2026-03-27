@@ -77,8 +77,8 @@ try:
     time.sleep(3)
     
     campo_usuario = wait.until(EC.presence_of_element_located((By.ID, "UserName")))
-    campo_usuario.send_keys("angie.cardenas")
-    driver.find_element(By.ID, "Password").send_keys("Celeste1020*")
+    campo_usuario.send_keys("Usuario")
+    driver.find_element(By.ID, "Password").send_keys("Contraseña")
     driver.find_element(By.ID, "LoginButton").click()
     time.sleep(8)
     print("[+] Login completado")

@@ -41,14 +41,14 @@ def bot_simple():
         driver.get("https://rubonline.icbf.gov.co/DefaultF.aspx")
         time.sleep(2)
         
-        print("→ Rellenando usuario: angie.cardenas")
+        print("→ Rellenando usuario: Usuario")
         campo_usuario = wait.until(EC.presence_of_element_located((By.ID, "UserName")))
-        campo_usuario.send_keys("angie.cardenas")
+        campo_usuario.send_keys("Usuario")
         time.sleep(1)
         
         print("→ Rellenando contraseña")
         campo_password = driver.find_element(By.ID, "Password")
-        campo_password.send_keys("Celeste1020*")
+        campo_password.send_keys("Contraseña")
         time.sleep(1)
         
         print("→ Presionando botón LOGIN")

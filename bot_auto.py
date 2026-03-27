@@ -29,10 +29,10 @@ try:
     time.sleep(2)
     
     campo_usuario = wait.until(EC.presence_of_element_located((By.ID, "UserName")))
-    campo_usuario.send_keys("angie.cardenas")
+    campo_usuario.send_keys("Usuario")
     
     campo_password = driver.find_element(By.ID, "Password")
-    campo_password.send_keys("Celeste1020*")
+    campo_password.send_keys("Contraseña")
     
     boton_login = driver.find_element(By.ID, "LoginButton")
     boton_login.click()

@@ -503,8 +503,8 @@ def main():
     
     # Configuración
     URL = "https://rubonline.icbf.gov.co/DefaultF.aspx"
-    USUARIO = "angie.cardenas"
-    CONTRASEÑA = "Celeste1020*"
+    USUARIO = "Usuario"
+    CONTRASEÑA = "Contraseña"
     
     # Opción 1: Usar archivos Excel específicos
     # Busca archivos .xlsx en la carpeta actual

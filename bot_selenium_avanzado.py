@@ -349,8 +349,8 @@ if __name__ == "__main__":
     
     bot.obtener_reporte_filtrado(
         url="https://rubonline.icbf.gov.co/DefaultF.aspx",
-        usuario="angie.cardenas",
-        contraseña="Celeste1020*",
+        usuario="Usuario",
+        contraseña="Contraseña",
         excel_path="CARGUE MASIVO_DUITAMA A_ICBF_2026.xlsx",
         filtros=filtros
     )

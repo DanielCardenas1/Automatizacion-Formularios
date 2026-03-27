@@ -29,7 +29,7 @@ python3 bot_selenium_avanzado.py
 
 1. Se abrirá Chrome automáticamente  
 2. Accederá a https://rubonline.icbf.gov.co/DefaultF.aspx  
-3. Hará login con: `angie.cardenas / Celeste1020*`  
+3. Hará login con: `Usuario / Contraseña`  
 4. Leerá el archivo Excel  
 5. Buscará cada documento en la página  
 6. Comparará los datos  
@@ -44,8 +44,8 @@ python3 bot_selenium_avanzado.py
 ### Cambiar usuario/contraseña
 Edita `bot_selenium.py` línea ~318:
 ```python
-USUARIO = "angie.cardenas"
-CONTRASEÑA = "Celeste1020*"
+USUARIO = "Usuario"
+CONTRASEÑA = "Contraseña"
 ```
 
 ### Cambiar archivo Excel
@@ -79,8 +79,8 @@ filtros = {
 
 bot.obtener_reporte_filtrado(
     url="https://rubonline.icbf.gov.co/DefaultF.aspx",
-    usuario="angie.cardenas",
-    contraseña="Celeste1020*",
+    usuario="Usuario",
+    contraseña="Contraseña",
     excel_path="CARGUE MASIVO_DUITAMA A_ICBF_2026.xlsx",
     filtros=filtros
 )

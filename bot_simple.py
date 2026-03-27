@@ -58,8 +58,8 @@ try:
     driver.get("https://rubonline.icbf.gov.co/DefaultF.aspx")
     time.sleep(3)
     
-    driver.find_element(By.ID, "UserName").send_keys("angie.cardenas")
-    driver.find_element(By.ID, "Password").send_keys("Celeste1020*")
+    driver.find_element(By.ID, "UserName").send_keys("Usuario")
+    driver.find_element(By.ID, "Password").send_keys("Contraseña")
     driver.find_element(By.ID, "LoginButton").click()
     time.sleep(8)
     print("[+] Login completado\n")
