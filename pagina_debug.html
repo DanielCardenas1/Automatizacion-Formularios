@@ -1,0 +1,340 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><link rel="icon" href="favicon.ico" type="image/ico">
+    <script type="text/javascript" language="javascript" src="Scripts/pI.js"></script>
+    <link type="text/css" href="Styles/log.css" rel="Stylesheet">
+    <script src="Scripts/jq.min.js" type="text/javascript"></script>
+    <script src="Scripts/WS.js" type="text/javascript"></script>
+    <link href="Styles/pU.css" rel="stylesheet" type="text/css"><link href="Styles/coin-slider-styles.css" rel="stylesheet" type="text/css"><title>
+	.: ICBF - Cuéntame :.
+</title> 
+    <script type="text/javascript">
+        //        var service = new WS("Default.aspx", WSDataType.json);
+        $(document).ready(function () {
+
+            //            service.call("RetornarContador", {}, true, function (data) {
+            //                if (data[0] > data[1]) {
+            //                    $("#CaptchaDiv").show();
+            //                }
+            //            });
+
+            //            $('#coin-slider').coinslider({
+            //                width: 225,
+            //                height: 210
+            //            });
+
+
+            //            // APLICA WATERMARK SI EL TEXTBOX NO TIENE VALOR
+            //            $("#loGeneraciones_UserName").each(function () {
+
+            //                if ($(this).text() == "Nombre De Usuario")
+            //                    $(this).val('').addClass('WaterMarkOn');
+            //                else
+            //                    if ($.trim($(this).val()) == '')
+            //                        $(this).addClass('WaterMarkOn').val("Nombre De Usuario");
+            //            });
+
+            //            $("#loGeneraciones_Password").each(function () {
+
+            //                if ($(this).text() == "Contraseña")
+            //                    $(this).val('').addClass('WaterMarkOn');
+            //                else
+            //                    if ($.trim($(this).val()) == '')
+            //                        $(this).addClass('WaterMarkOn').val("Contraseña");
+            //            });
+
+            //            // AL OBTENER EL FOCO LIMPIA TITLE Y QUITA CLASE DE MARCA
+            //            $("#loGeneraciones_UserName").focus(function () {
+            //                if ($(this).hasClass("WaterMarkOn")) $(this).removeClass('WaterMarkOn').val('');
+            //            });
+
+            //            $("#loGeneraciones_Password").focus(function () {
+            //                if ($(this).hasClass("WaterMarkOn")) $(this).removeClass('WaterMarkOn').val('');
+            //            });
+
+            //            // AL PERDER FOCO SI EL INPUT ESTÁ VACIO VUELVE A PONER MARCA
+            //            $("#loGeneraciones_Password").blur(function () {
+            //                if ($(this).val() == '')
+            //                    $(this).addClass('WaterMarkOn').val("Contraseña");
+            //            });
+
+            //            // AL PERDER FOCO SI EL INPUT ESTÁ VACIO VUELVE A PONER MARCA
+            //            $("#loGeneraciones_UserName").blur(function () {
+            //                if ($(this).val() == '')
+            //                    $(this).addClass('WaterMarkOn').val("Nombre De Usuario");
+            //            });
+
+        });
+
+   
+    </script>
+</head>
+
+<body style="font-family: Verdana; font-size: smaller; " onload="SetFocus('loGeneraciones_UserName');">
+    <form method="post" action="./DefaultF.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY3OTkzMTY1MA9kFgICAw9kFgYCAg9kFgICAw9kFgQCCA8PZBYCHgdvbkNsaWNrBTdIaWRlQnV0dG9uKCdNc2dJbmZvX2J0bkFjZXB0YXInLCAnTXNnSW5mb19idG5DYW5jZWxhcicpZAIKDw9kFgIfAAU3SGlkZUJ1dHRvbignTXNnSW5mb19idG5BY2VwdGFyJywgJ01zZ0luZm9fYnRuQ2FuY2VsYXInKWQCAw9kFgJmD2QWBgIRDxBkZBYAZAIXDw9kFgIeB09uQ2xpY2sFqAFqYXZhc2NyaXB0Om5ld193aW49d2luZG93Lm9wZW4oJ2h0dHA6Ly9tdHMuaWNiZi5nb3YuY28vU2VndXJpZGFkSUNCRi9sb2dpbi5hc3B4P3JldHVyblVybD1odHRwcyUzQSUyRiUyRnJ1Ym9ubGluZS5pY2JmLmdvdi5jbyMvcmVzdGFibGVjZXJDb250cmFzZW5pYScpO25ld193aW4uZm9jdXMoKTtkAhkPD2QWAh8BBaQBamF2YXNjcmlwdDpuZXdfd2luPXdpbmRvdy5vcGVuKCdodHRwOi8vbXRzLmljYmYuZ292LmNvL1NlZ3VyaWRhZElDQkYvbG9naW4uYXNweD9yZXR1cm5Vcmw9aHR0cHMlM0ElMkYlMkZydWJvbmxpbmUuaWNiZi5nb3YuY28jL2NhbWJpYXJDb250cmFzZW5pYScpO25ld193aW4uZm9jdXMoKTtkAgYPDxYCHgRUZXh0BREgVmVyc2nDs246IDMuMi4yMGRkZNaJJCuGfaELB9xmSJeDfaBmVgcssKLexhsw1+bEtQ5U">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=kSvHaaQd6WLcdwCbdu9jBVie4aGLqhIrOmmIzfa0lSoYiGl2oIM8NGo97HLzSjFZCrk1loHbfvwEUMJD8_olL_3a34_j4RO4_kGHBaK6WCM1&amp;t=638672597867482182" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=ovRQMvbn6HTsFEQ7NXGIFGUpK4Rb7VJOQNo-eht_bMblmjli3k9K7Bts_Orb-9qjukLohhcbmSgvhPWtmV2N1rb7H-bezpCvRDIYZl3gv3xNoMHiHDYREhA3KuE4-HrxOU_MALn2xsiSe9Q2oEYGDrtjVzEZpsJChfem7RMtAsM1&amp;t=ffffffffa57c377b" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=YiQnzQLinSPVop8CNtLvWbPAtFzzYO9ztrMpPfJh6SNDRqzeiCea5JAmRTxdndHxH3NShGbfch1xUwSflONnuMnvRn_cQEuPQZ5YC6QCvmz3ODswadkKDUWRmtCjWQVlHHadcZOZNmv4TiW72IDYhQ2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ZAZakZbvF4QJNpZupZLBoQEnt9PQ2MdRapPiHzHoDhafA3fX_BjK7kcZv9z3Ng-qYpLgpyZKFkwEHc0PNhnmeLG2zonKV3pjM2n3Vc81tduUH4yULvPWISxkAfTDeOGfheOEvpeA5BGCL58udI_Mzw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Lull0Etknh_IFHG6_qZPZytuRCQoA4UuO9JSPOcbrcqKtU2q6oTSKHGsizsItzNbNWrB4WHyp-IlqmthgsRVvhDOhgB7-sumVCMxTpE1LBejYUreVbXasRJDu2sIv9eLGUAZvq7I4KW0FUJxxpkFHw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=MgWrOVebUmWLQAI9sVDVEz2Uetv_6SLNIt3Tkllt611dbC0NeT4FVIOmaq1BYqTDQinhuW83TRQeEdd_zfCFgV9NF7ARdNa6vZQ0YWsdSFDBZMQ0uWNNRec2vNR6ROrEkcUjV4yLj96lXJ-Zwh3DDA2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kjtJ6wRm-ux7MeB1CWJDrAoavI9LuIKxhCFmhkBc0OsAcQhlV-_FMzQcmdiIEutQpFmxwU0Vqig52By5_LJ3ZLK3iTiaRiXhwVrW0lD9_I92sZX4nYjKEnErsi4bB49R2zzK8T8b856narIztgaoHw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=WBVzkenL2irFRn3CR11zzTRrfcnVbUJDQ2NaO0g5ObtZqnzSj33rmMRVOYZDSLQFOCLu04-6pCaa9XQgec-dV3fXhhQky6rF2IJP5y6CCuXVjPzBx9thru4_tUiaSuO0zORvNfOSf1LRMDBBMwemtFVf3k5_lmN1k_dnObU2FrY1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yQ0tKeTw4QhZkwmIeXw4Kp0d2XBR5FbBz_UBYUCgkobeHR4cDjwJkFHBSDrtVSvYQ-S1EEFJdXiz4GcuP-62CUO8zuiOhPiNSEzF4xziBcnL2J9XR3wGoimLjjWdAxXDnYOPmAN45xOZnlMx3NQKRRgFpb9Y5GefPBso_tn_SsU1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zYnU-f6UwAmjbHklRZREO0CrZb9IjkiJFfN4ONIR9CVH80UrEva6km-ipQDdBlOD7bOnDTOThXZBWhe6bPGC-QvP9hVkg7NBc25LQwamhRaZGI54u7gqj5kvskHunot4gd7TqTRyA-l5N72YrOerN4taRUaW1ywANnoi_xBHtWk1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OJF7pdRQPDHKt_yTlUrKrFGhR8zkItFjFmDV1NR7mhpInHK-Xgpk-V8wyd5LyeHFVdlQVtCmBqJZ9PYxx9NxrLMKi0-rYBQata8TlQwZDCdfmW4_UY6C4FajrtHwQkFSBKtCMlP1fvEQ9d8wD8YziwM32u-XI4TIGLJt1y5gUsE1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=vwDBS9KXotcRBoowRSVyvx-Atug0U0RN03XylUL-FmhWO9hAopcXiX0l6J_Rb4aBlkVNuVilrqelPDbjBXxxq97-01zf-yE2lSL7IOlNkk5uvZW6yiczAwdaqy9OGOaPMvjg0TiOEykUpYS9MCQc58OI2aSn-_Oijpb66MSV_Pk1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zI1LTEXauh3rKO-2Y91QNwVzk4JFqFsOJXPZjYgLtVm5_Hqr7hWagbwb7tL-pmjUm37OPsusRKR7JoYnC07a36WJlK9daxR9eLp3SV5RCmaOtRHgI5AS-iUegM_M-R5LpR7F2InxelWJk-YjbmWroDlR3eZ1fQEPn6p7ccz8s0o1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ZtBQZp8S8lx_YHYKwUpzKBY-dlXiIalTcSqeD0hXDjft0wpy7LcULkOApC6wklCdSdNOsgnlOykZsPo_CySF094JR6VUUxACHVtaM5Y7DGVce03gEMBlObsYO81gUA6QMVq0-L6pWvTw8nj0IUZKGYoz4V6a7270mP47fWEDVL41&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=L-KFxHLhS4tto4OC5td8J_QucI1zSV3vjVzmHOjFATeYKyfIKixXVCRLrvr0LhoPuNnIWWU6oRpesF2c2SP7Fr_Q2BmdADbDYGu1DeXdTwSmaUOkuxBGgLFWCIieOGt9j6ql0vQU3h-3lWjyIhM6uDdeuBQ7g89gL0wo4pi1PGY1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LNV5A2hTLzpQEgCPezuvHI2CkxaTgHfDgiOanBqxxL9alb6G_WSwmXXq9t5e1DUspDdGO-7temjPQqUh9cxIJCZpdhv_J6qaeBW7BTWwmuH8G9LId4LSGGjqpEs2BObaGqiUiIoTx58Q9XOybVpOVA_KQuP-TdFJaMgNQlVMHtU1&amp;t=7f16157c" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+null;if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="29CD9AC5">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAcOgtl2VqJXyaZulHfcAWDGhgzYqln7EJSIm2vuFXUbA0dSwSl9T9cYdvdEUMk3rEULoV2LN/n/CLpARjOiamCFXArz/WCefbk6V2VE3Ih52aARPT6/T9Q9ymbHNEvu4nfcqaj6i4HaaYTcyD0yJuxuLNtukwawokcPHpmVqznnV78uOkoBr32fYvK0bynZam4=">
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', [], [], [], 90, '');
+//]]>
+</script>
+
+    <input type="hidden" name="hfUsuarioCorrecto" id="hfUsuarioCorrecto" value="1">
+    
+<script type="text/javascript" language="javascript">
+    function HideButton(IdButtonAceptar, IdButtonCancelar) {
+        var vElement = document.getElementById(IdButtonAceptar);
+        if (vElement != null) {
+            vElement.style.visibility = "hidden";
+        }
+        vElement = document.getElementById(IdButtonCancelar);
+        if (vElement != null) {
+            vElement.style.visibility = "hidden";
+        }
+    }
+
+    function StartForcus(IdButton) {
+        var vElement = document.getElementById(IdButton);
+        vElement.focus();
+    }
+</script>
+
+
+
+
+    <div class="centrar">
+        <table cellpadding="0" cellspacing="0" class="Loggin">
+            <tbody><tr>
+                <td class="Logo">
+                    <div class="content">
+                        <div id="coin-slider">
+                            <img alt="logo" src="Image/loggin/CuentameImg.jpg" style="height: 274px; width: 393px">
+                        </div>
+                    </div>
+                </td>
+                <td class="user">
+                    <table cellpadding="5" cellspacing="0" class="labels" width="100%">
+                        <tbody><tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr id="trUserpass">
+	<td>
+                                <table cellpadding="1" cellspacing="0" style="border-collapse: collapse;" width="100%">
+                                    <tbody><tr>
+                                        <td>
+                                            <table cellpadding="0" style="height: 120px; width: 100%;">
+                                                <tbody><tr>
+                                                    <td>
+                                                        <input name="UserName" type="text" id="UserName" class="WaterMarkOn">
+                                                        <input type="hidden" name="TbwUserName_ClientState" id="TbwUserName_ClientState">
+                                                        <span id="UserNameRequired" class="error" style="color:Red;visibility:hidden;">*</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input name="Password" type="password" id="Password" class="WaterMarkOn">
+                                                        <input type="hidden" name="TbWPassword_ClientState" id="TbWPassword_ClientState">
+                                                        <span id="PasswordRequired" class="error" style="color:Red;visibility:hidden;">*</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" class="error" style="color: Red;">
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center">
+                                                        <input type="submit" name="LoginButton" value="Iniciar Sesión" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;LoginButton&quot;, &quot;&quot;, true, &quot;loGeneraciones&quot;, &quot;&quot;, false, false))" id="LoginButton" class="btnLog">
+                                                    </td>
+                                                </tr>
+                                                 <tr>
+                                                    <td align="center">
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a id="PasswordRecoveryLink" onclick="javascript:new_win=window.open('http://mts.icbf.gov.co/SeguridadICBF/login.aspx?returnUrl=https%3A%2F%2Frubonline.icbf.gov.co#/restablecerContrasenia');new_win.focus();" style="cursor: hand">¿Olvidaste tu Contraseña?</a>
+                                                        <br>
+                                                        <br>
+                                                        <a id="HlCambiarContraseña" onclick="javascript:new_win=window.open('http://mts.icbf.gov.co/SeguridadICBF/login.aspx?returnUrl=https%3A%2F%2Frubonline.icbf.gov.co#/cambiarContrasenia');new_win.focus();" style="cursor: hand">Cambiar Contraseña</a>
+                                                        <br>
+                                                        <br>
+                                                        <a id="HyperLink1" href="http://www.icbf.gov.co" target="_blank">Política de Tratamiento de Datos para Operadores</a>
+                                                        
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+</tr>
+
+                        
+                        <tr>
+                            <td>
+                                <span id="lblError" style="display:inline-block;color:Red;font-weight:normal;font-style:normal;text-decoration:none;width:100%;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span id="LblVersion"> Versión: 3.2.20</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table cellpadding="5" cellspacing="0" class="IconosT">
+                                    <tbody><tr>
+                                       
+                                        <td>
+                                            <a target="_blank">
+                                                
+                                                <img src="Image/loggin/Logo-GOBIERNO-DE-COLOMBIA-2024.png" id="Img1" alt="presidencia"></a>
+                                        </td>
+                                        
+                                       
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td class="FooterL">
+                    Instituto Colombiano de Bienestar Familiar
+                </td>
+                <td class="FooterR">
+                    Todos los Derechos Reservados - ©
+                    2026
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("UserNameRequired"), document.getElementById("PasswordRequired"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var UserNameRequired = document.all ? document.all["UserNameRequired"] : document.getElementById("UserNameRequired");
+UserNameRequired.controltovalidate = "UserName";
+UserNameRequired.errormessage = "Campo Requerido";
+UserNameRequired.validationGroup = "loGeneraciones";
+UserNameRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+UserNameRequired.initialvalue = "";
+var PasswordRequired = document.all ? document.all["PasswordRequired"] : document.getElementById("PasswordRequired");
+PasswordRequired.controltovalidate = "Password";
+PasswordRequired.errormessage = "Campo Requerido";
+PasswordRequired.validationGroup = "loGeneraciones";
+PasswordRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+PasswordRequired.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"TbwUserName_ClientState","WatermarkCssClass":"WaterMarkOn","WatermarkText":"Usuario","id":"TbwUserName"}, null, null, $get("UserName"));
+});
+
+document.getElementById('UserNameRequired').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('UserNameRequired'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"TbWPassword_ClientState","WatermarkCssClass":"WaterMarkOn","WatermarkText":"Passwordk","id":"TbWPassword"}, null, null, $get("Password"));
+});
+
+document.getElementById('PasswordRequired').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('PasswordRequired'));
+}
+//]]>
+</script>
+</form>
+
+   
+
+</body></html>
